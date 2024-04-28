@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0; /* colorful background */
+    }
+    header {
+      background-color: #333; /* dark header */
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .product {
+      margin-bottom: 30px;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+    .form-text {
+      margin-top: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="product">
+      <img src="nike_shoes.jpg" alt="Nike Shoes">
+      <h2>Nike Shoes</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod mollis magna, eget cursus justo sollicitudin ac.</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="nike_tshirt.jpg" alt="Nike T-Shirt">
+      <h2>Nike T-Shirt</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod mollis magna, eget cursus justo sollicitudin ac.</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="nike_cap.jpg" alt="Nike Cap">
+      <h2>Nike Cap</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod mollis magna, eget cursus justo sollicitudin ac.</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="form-text">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Your Name">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Your Email">
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Nike. All rights reserved.</p>
+  </footer>
+</body>
+</html>
